@@ -29,12 +29,14 @@ h2 {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
+  color: #424A57;
 }
 
 h3 {
   font-weight: 700;
   font-size: 24px;
   line-height: 44px;
+  color: #424A57;
 }
 
 p {
@@ -103,4 +105,58 @@ header {
   font-weight: 400;
   font-size: 27px;
   line-height: 38px;
+  width: 590px;
+  height: 152px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  margin: 32px 439px 127px 0px;
+  height: 52px;
+  width: 251px;
+  background: #0096A7;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  
+
+}
+
+.features {
+  display: flex;
+  justify-content:space-between;
+  text-align: left;
+  padding: 85px 0px;
+  color: #424A57;
+}
+
+.card {
+  margin-left: 80px;
+  color: #424A57;
+}
+
+.advantages {
+  display: flex;
+  justify-content:space-between;
+  text-align: left;
+  padding: 32px 0px 85px;
+  color: #424A57;
+}
+
+.img-bot {
+  height: 317px;
+  width: 400px;
+  margin-bottom: 32px;
+}
+
+.head-bot {
+  margin-bottom: 24px;
 }
