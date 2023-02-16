@@ -37,9 +37,37 @@ p {
   line-height: 28px;
 }
 
+a {
+  padding-left: 32px;
+  color: #E1E1E1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #424A57;
+  color: #E1E1E1;
+  padding: 50px 100px;
+}
+
 .container {
   width: 100%;
   max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 100;
+  padding: 0 100px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 44px;
+  color: #E1E1E1;
+}
+
+.logo {
+  margin-left: -32px;
 }
