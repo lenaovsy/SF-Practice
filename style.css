@@ -66,6 +66,7 @@ footer {
   height: 144px;
   color: #FFFFFF;
   padding: 50px 100px;
+  align-items: center;
 }
 
 .footer-text {
