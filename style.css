@@ -8,6 +8,13 @@ body {
   background: #E5E5E5;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 64px;
+  color: #424A57;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -70,4 +77,31 @@ header {
 
 .logo {
   margin-left: -32px;
+}
+
+.first-screen {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(246, 248, 251, 0.9);
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 100px;
+}
+
+.start-img {
+  height: 450px;
+  width: auto;
+  margin: 100px auto;
+}
+
+.first-text {
+  margin: 127px auto 48px 60px;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.first-text-p {
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 38px;
 }
