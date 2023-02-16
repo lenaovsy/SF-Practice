@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  background: #E5E5E5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+ }
+
+ section {
+  margin-bottom: 85px;
+
+ }
+
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 44px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100;
+}
